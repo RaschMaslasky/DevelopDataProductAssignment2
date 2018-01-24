@@ -1,0 +1,13 @@
+name: CrimeApp
+title: CrimeApp
+username:
+account: raschmaslasky
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 259732
+bundleId: 1190886
+url: https://raschmaslasky.shinyapps.io/CrimeApp/
+when: 1516811980.45205
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|df.csv

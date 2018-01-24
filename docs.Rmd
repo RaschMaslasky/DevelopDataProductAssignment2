@@ -1,0 +1,38 @@
+---
+title: "user's guide"
+output:
+  html_document:
+    df_print: paged
+---
+
+####Introduction
+**London's crime monitoring** is the project which represents the City of London's crime statistics.
+
+The goal of the project is:
+
+* create a **Shiny application** and deploy it on Rstudio's servers"
+
+* prepare a reproducible pitch presentation about application via **Slidify** 
+or **Rstudio Presenter**
+
+####User interface 
+
+##### 1. Launch the application
+Please click [London's crime monitoring](https://raschmaslasky.shinyapps.io/CrimeApp/) 
+
+##### 2. Perform analyze
+There are several approach that you will use to analyze and predict the crime level of the City of London.
+
+* analize crime distribution in time and location;
+
+* forecast crime level using **ARIMA** method;
+
+##### 2.1. Search 
+Please change **Period** and **Crime type** parameters and you can see crime distribution of the map of the City of London
+
+Please check the **Cluster option** or/and **Popup option** and you can see cluster representation of location with crimes in the map of the City of London.
+
+##### 2.2. Forecast
+There are **p,d,q** parameters of **ARIMA** method. You can modify them and see how they affect to the forecast. Maximum of **p,d,q** parameters is 5. 
+
+**Caution:** There are some combinations that can lead to a calculation error. Please keep this in mind.
